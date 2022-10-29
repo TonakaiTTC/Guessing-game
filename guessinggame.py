@@ -20,4 +20,4 @@ if guess != secretnum:
     print('You lost.The secret Number was')
     print(secretnum)
 else:
-    print('You won!!!')
+    print("You won!!!" playername + " , It took you " + totalguesses + " to get it right")
